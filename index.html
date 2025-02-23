@@ -9,11 +9,19 @@
         position: absolute;
         border-radius: 50%;
       }
+      #root {
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+      }
     </style>
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
     <script src="bouncingBalls.js"></script>
+    <script>
+      createBouncingBalls();
+    </script>
   </body>
 </html>
