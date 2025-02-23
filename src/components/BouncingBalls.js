@@ -3,7 +3,9 @@ import React from 'react';
 const BouncingBalls = () => {
   return (
     <div className='bouncing-balls'>
-      {/* Add your bouncing ball animation here */}
+      <div className='ball'></div>
+      <div className='ball'></div>
+      <div className='ball'></div>
     </div>
   );
 };
