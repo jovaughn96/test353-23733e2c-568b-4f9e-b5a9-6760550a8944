@@ -1,12 +1,12 @@
 import React from 'react';
 
-function LandingPage() {
+const LandingPage = () => {
   return (
     <div>
-      <h1>Welcome to our SaaS</h1>
-      <p>This is our landing page.</p>
+      <h1>Welcome to our SaaS product!</h1>
+      <p>Our product is the best in the market.</p>
     </div>
   );
-}
+};
 
 export default LandingPage;
