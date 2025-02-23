@@ -21,8 +21,10 @@
     <script type="module" src="/src/main.tsx"></script>
     <script src="bouncingBalls.js"></script>
     <script>
-      // Moved this line below the bouncingBalls.js script
-      createBouncingBalls();
+      // Ensure createBouncingBalls is defined before calling it
+      if (typeof createBouncingBalls === 'function') {
+        createBouncingBalls();
+      }
     </script>
   </body>
 </html>
