@@ -1,11 +1,11 @@
 import React from "react";
-import LandingPage from './components/LandingPage';
+import SnakeGame from './components/SnakeGame';
 
-const App = () => {
+function App() {
   return (
-    <div>
-      <LandingPage />
+    <div className="App">
+      <SnakeGame />
     </div>
   );
-};
+}
 export default App;
