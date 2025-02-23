@@ -1,12 +1,12 @@
 import React from 'react';
 import LandingPage from './components/LandingPage';
 
-const App = () => {
+function App() {
   return (
-    <div>
+    <div className='App'>
       <LandingPage />
     </div>
   );
-};
+}
 
 export default App;
